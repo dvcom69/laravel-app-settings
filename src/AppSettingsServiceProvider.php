@@ -32,7 +32,7 @@ class AppSettingsServiceProvider extends ServiceProvider
             __DIR__ . '/config/app_settings.php' => config_path('app_settings.php'),
         ], 'config');
 
-        $this->loadRoutesFrom(__DIR__ . '/routes/web.php');
+        // $this->loadRoutesFrom(__DIR__ . '/routes/web.php');
     }
 
     /**
